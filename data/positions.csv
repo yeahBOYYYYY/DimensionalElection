@@ -1,0 +1,277 @@
+election_id,topic_id,party_id,value,summary,source_ids
+2026,pal-state,joint,0,Advocates a Palestinian state along the pre-1967 lines and renewed negotiations toward it.,jns_arab|ipf
+2026,pal-state,raam,1,"Long-standing support for Palestinian statehood, reaffirmed by Mansour Abbas in August 2026.",jns_arab|ipf
+2026,pal-state,democrats,1.5,"Yair Golan: ""My vision is two states for two peoples."" Seeks a renewed push toward separation from the Palestinians.",jns_dem|ipf
+2026,pal-state,together,6.5,Bennett opposes a Palestinian state and backs autonomy in Areas A and B. Lapid says he doesn't back one now but supports two states in the long term.,jns_together|ipf
+2026,pal-state,yashar,7,"Eisenkot: ""The two-state solution is a grave mistake."" He also opposes policies that would collapse the PA or have Israel rule millions of Palestinians.",jns_yashar|jns_eisenkot2s|ipf
+2026,pal-state,yb,7.5,Liberman's October 2026 plan would dismantle the PA and cancel Oslo. Jordan would run civil affairs in Areas A and B while Israel keeps security control.,jns_yb|toi_liberman
+2026,pal-state,reservists,8,Both factions oppose Palestinian statehood and back strengthening settlement in Judea and Samaria.,jns_res
+2026,pal-state,shas,8,Opposes Palestinian statehood.,jns_haredi
+2026,pal-state,likud,8.5,"Opposing a Palestinian state is a ""hallmark of its security policy."" Likud wants continued Israeli security control of the West Bank.",jns_likud|ipf
+2026,pal-state,amcha,9,Rejects Palestinian statehood. Would disarm the PA and apply sovereignty to Areas B and C.,jns_amcha|ipf
+2026,pal-state,rzp,10,"Both factions oppose a Palestinian state. Zehut favors ""peace through victory"" over territorial concessions.",jns_rz|ipf
+2026,pal-state,otzma,10,Opposes Palestinian statehood and would disarm the Palestinian Authority.,jns_otzma|ipf
+2026,pal-state,utj,,UTJ has no unified territorial platform on this issue.,jns_haredi
+2026,sovereignty,joint,0,Opposes settlement expansion and seeks Palestinian self-determination.,ipf
+2026,sovereignty,raam,1,"Supports a Palestinian state, which rules out annexation.",jns_arab|ipf
+2026,sovereignty,democrats,1,Opposes annexation and pledges to dismantle illegal or newly approved outposts. Wants to curb settler violence.,jns_dem|ipf
+2026,sovereignty,yashar,4,"Rejects a Palestinian state but opposes building in E1 because of the diplomatic cost, and criticizes settler violence. Senior candidate Yoram Cohen opposes full annexation.",jns_yashar|i24_e1
+2026,sovereignty,together,6,"Bennett wants ""Israeli sovereignty over Area C"" and settlement on state land. Opposes unauthorized outposts and building on private Palestinian land.",jns_together|ipf
+2026,sovereignty,yb,6.5,Would apply Israeli sovereignty to Area C. Jordan would administer civilian life in Areas A and B.,jns_yb|toi_liberman
+2026,sovereignty,shas,7,Backs settlement expansion in Judea and Samaria.,jns_haredi
+2026,sovereignty,reservists,7,Supports strengthening Jewish settlement in Judea and Samaria.,jns_res
+2026,sovereignty,likud,7.5,Wants continued Israeli security control of the West Bank. Likud's campaign has not formally committed to annexation.,ipf|jns_likud
+2026,sovereignty,amcha,8.5,Would extend sovereignty to Areas B and C and expand settlement. Major Palestinian cities would run their own municipal affairs.,jns_amcha
+2026,sovereignty,rzp,10,"Backs Israeli sovereignty and settlement across Judea and Samaria, and has advanced the E1 project.",jns_rz|ipf
+2026,sovereignty,otzma,10,Pushes sovereignty and settlement expansion across Judea and Samaria.,jns_otzma|ipf
+2026,sovereignty,utj,,No unified territorial platform. Its factions disagree.,jns_haredi
+2026,gaza,joint,0,"Calls for ""a permanent halt to fighting in Gaza"" and an end to funding the war.",jns_arab|ipf
+2026,gaza,democrats,2,"End Hamas rule and replace it with a Palestinian technocratic administration under international supervision, with reconstruction funded by Gulf states.",jns_dem
+2026,gaza,yashar,4.5,"Eliminate Hamas's remaining military capabilities. Joining the government requires recognizing Hamas as a terror group ""that must be destroyed."" Opposes ruling millions of Palestinians.",jns_yashar|ipf
+2026,gaza,yb,4.5,"First eliminate Hamas's military and civilian governing structures, then hand administration to an outside actor. Has floated Egyptian responsibility.",jns_yb|ipf
+2026,gaza,shas,5,Deri has backed dismantling Hamas but also negotiated ceasefires and hostage releases.,jns_haredi
+2026,gaza,together,5.5,"Strike Hamas's training and arms buildup, then give it an ultimatum to disarm. Keeps Israel on the Yellow Line with freedom of military action.",jns_together|ipf
+2026,gaza,likud,6.5,Freedom of military action. Withdrawal from the Yellow Line depends on Hamas disarming. No PA rule and no Turkish or Qatari troops. Netanyahu rejected the 15-point document Hamas accepted.,ipf|dhaka_gaza|tribune_gaza
+2026,gaza,reservists,7.5,"Israeli control of the Gaza perimeter and the Philadelphi Corridor, plus an agency to facilitate voluntary emigration.",jns_res
+2026,gaza,amcha,8,"Continued Israeli security control and ""voluntary emigration"" through deals with countries willing to take Gazans.",jns_amcha|ipf
+2026,gaza,rzp,9.5,"Smotrich told Trump the plan should be canceled and wants Israeli military administration. Zehut wants to annex Gaza, remove its population, and resettle it.",jns_rz|baker_gaza
+2026,gaza,otzma,10,Renewed Jewish settlement in Gaza and a dedicated ministry to promote emigration.,jns_otzma|ipf
+2026,gaza,raam,,"No clear Gaza policy. In July 2026 Abbas refused to say whether Hamas should be destroyed, calling the question a loyalty test.",jns_arab
+2026,gaza,utj,,"Split: Agudat Yisrael's Goldknopf has backed resettling Gaza, while Degel HaTorah's Gafni opposes it.",jns_haredi
+2026,iran,democrats,2.5,Would negotiate a new nuclear agreement while keeping military measures against the program. Golan called the killing of Khamenei a strategic mistake.,jns_dem
+2026,iran,yashar,5,"The nuclear issue ""must end in the destruction or dismantling of the Iranian nuclear programme."" Eisenkot calls regime change unrealistic and stresses close coordination with the US.",aj_iran|ipf|jns_yashar
+2026,iran,likud,8,Netanyahu calls Iran's regime an existential threat and has directed the security services to pursue its overthrow. He accepted the June 2026 halt to fighting.,jns_nextpm|aj_iran
+2026,iran,yb,9,Calls for regime change in Iran.,ipf
+2026,iran,together,9.5,"Bennett calls toppling Iran's government essential: ""the clock for regime change... will start as soon as the government in Israel is changed."" Lapid urged bombing energy facilities on Kharg Island.",aj_iran|ipf
+2026,death-penalty,joint,0,Hadash-Ta'al MK Aida Touma-Sliman called the law discriminatory and said she opposes the death penalty in general.,ji_death
+2026,death-penalty,democrats,0.5,"Labor's Gilad Kariv called it ""not moral, not Jewish and not democratic"" and plans to petition the High Court.",ji_death|jc_death
+2026,death-penalty,together,1.5,"Lapid (Yesh Atid) opposed the bill, calling it a distorted PR stunt. Bennett's own position was not reported.",jpost_death
+2026,death-penalty,shas,7,"Voted in favor on the instructions of its Council of Torah Sages, after the bill was amended.",jpost_death
+2026,death-penalty,yb,8.5,"Liberman voted in favor. YB has long sponsored such bills; MK Malinovsky backs the death penalty for terrorists ""in principle.""",jpost_death|ji_death
+2026,death-penalty,likud,9,Netanyahu came to vote in favor. The bill passed along coalition lines.,jpost_death|ji_death
+2026,death-penalty,otzma,10,Sponsored the law and conditioned its budget support on it. Wants it enforced as a priority.,jns_otzma|ji_death
+2026,judiciary,democrats,0.5,"Would reverse the government's judicial legislation, including the changes to judicial appointments.",jns_dem|ipf
+2026,judiciary,yashar,2.5,Pledges to preserve judicial independence while protecting the Knesset's lawmaking authority. Seeks broad agreement on a constitution.,jns_yashar
+2026,judiciary,together,3,Proposes a constitution grounded in the Declaration of Independence and broad agreement on Basic Laws and judicial review.,jns_together
+2026,judiciary,yb,3,"Wants constitutional changes that enshrine ""the separation of powers.""",jns_yb|ipf
+2026,judiciary,reservists,5,"Changes only by broad agreement: split the attorney general's role, independent judicial oversight, a Basic Law on relations between the branches.",jns_res
+2026,judiciary,amcha,6,Would split the attorney general's prosecutorial and advisory roles and create an appellate body to review High Court rulings.,jns_amcha|ipf
+2026,judiciary,shas,7.5,Supports limiting the High Court's power to overturn legislation.,jns_haredi
+2026,judiciary,utj,7.5,Supports limiting the High Court's power to overturn legislation.,jns_haredi
+2026,judiciary,likud,8.5,"Justice Minister Levin's reform is one of the government's flagship initiatives. Likud seeks to curb the judiciary, especially its role in appointments.",jns_likud|ipf
+2026,judiciary,rzp,9.5,"Knesset override, split AG role, ministers appoint their own legal advisers. Smotrich: ""The government will be able to govern."" Zehut would bar the Court from striking down laws.",jns_rz
+2026,judiciary,otzma,9.5,"Fire the AG immediately, require a two-thirds Knesset vote for Supreme Court nominees, and limit who can petition the court.",jns_otzma
+2026,oct7,yashar,0,"""The first decision of our government will be to establish a state commission of inquiry into the Oct. 7 massacre.""",ynet_inquiry|jns_yashar
+2026,oct7,together,0,"""We will establish a state commission of inquiry in accordance with the law within the first five minutes.""",ynet_inquiry|jns_together
+2026,oct7,yb,0,"""We support establishing a state commission of inquiry exactly according to the existing law."" Members appointed by the Supreme Court president.",ynet_inquiry|jns_yb
+2026,oct7,democrats,0,"""Establishing a state commission of inquiry will be the first decision the party advances in the next government.""",ynet_inquiry
+2026,oct7,joint,0.5,"Supports a state commission under existing law, headed by a Supreme Court justice.",ynet_inquiry
+2026,oct7,reservists,1,"Supports a state commission, preferably with broad agreement on its composition.",ynet_inquiry|jns_res
+2026,oct7,raam,3,"Calls for a ""comprehensive, independent and impartial investigation"" but names no model. Not central to its campaign.",ynet_inquiry
+2026,oct7,amcha,5,"A special committee with state-commission powers, led by two retired judges elected by the Knesset in a secret vote, with bereaved families taking part.",ynet_inquiry|jns_amcha
+2026,oct7,rzp,9,"Wants a ""national"" commission and would ""under no circumstances"" back a state commission. Zehut wants a neutral panel with equal coalition and opposition appointees.",ynet_inquiry
+2026,oct7,likud,9,"No official answer. Netanyahu pushed a politically appointed ""national"" commission with equal coalition and opposition appointees, and opposes letting the Chief Justice appoint members.",ynet_inquiry|ynet_probe|ipf
+2026,oct7,shas,,Declined to respond to Ynet's survey.,ynet_inquiry
+2026,oct7,utj,,Declined to respond to Ynet's survey.,ynet_inquiry
+2026,oct7,otzma,,Declined to respond to Ynet's survey.,ynet_inquiry
+2026,pardon,democrats,0,"Golan: ""Only the guilty seek pardon."" Netanyahu should leave public office.",tribune_pardon|khaleej_pardon
+2026,pardon,together,1,"Lapid: no pardon without ""admission of guilt, an expression of remorse and an immediate withdrawal from political life."" Bennett would back a binding deal that includes Netanyahu leaving politics.",yahoo_lapid_pardon|jstreet_pardon
+2026,pardon,yashar,1,"Eisenkot: there can't be one legal system for citizens and another for Netanyahu. A pardon requires taking responsibility, admitting the offenses, and remorse.",jstreet_pardon
+2026,pardon,yb,2,"Liberman called the request a way to ""control the public discourse"" and distract from the economy and the Haredi draft.",tribune_pardon
+2026,pardon,rzp,9.5,"Smotrich backed the request: Netanyahu ""has been persecuted for years by a corrupt judicial system.""",tribune_pardon|khaleej_pardon
+2026,pardon,otzma,9.5,Ben-Gvir issued a statement supporting the request.,khaleej_pardon
+2026,pardon,likud,10,"Netanyahu filed the request without admitting guilt. Defense Minister Katz urged Herzog to grant it to heal a ""deep rift.""",tribune_pardon|jstreet_pardon
+2026,ag,together,0.5,"Lapid: ""It's illegal, it's corrupt, it won't pass.""",ynet_ag
+2026,ag,democrats,0.5,Golan said the government had abandoned reason.,ynet_ag
+2026,ag,yb,1,"Liberman said the move aims to distract from the hostage crisis, the draft-dodging law, and the refusal to set up a state inquiry.",ynet_ag
+2026,ag,shas,8,Shas ministers sat in the cabinet that unanimously voted no confidence in the AG in March 2025.,aa_ag
+2026,ag,likud,9.5,"The Likud-led cabinet unanimously voted to remove the AG, led by Justice Minister Levin.",aa_ag|ynet_ag
+2026,ag,rzp,9.5,Its ministers voted with the unanimous cabinet to oust the AG. Wants the AG's advisory and prosecutorial roles split.,aa_ag|jns_rz
+2026,ag,otzma,10,Its platform demands the attorney general be dismissed immediately.,jns_otzma
+2026,term-limits,likud,0.5,"Netanyahu called the 2021 term-limit bill ""Iranian-style,"" arguing it takes the choice away from voters. (Most recent explicit statement found.)",ih_termlimits|toi_termlimits
+2026,term-limits,yashar,10,Would limit prime ministers to two terms and cap the number of ministers.,jns_yashar
+2026,term-limits,together,10,"Eight-year limit on the premiership, starting with Bennett.",jns_together|ji_together
+2026,term-limits,yb,10,Proposes limiting prime ministers to two terms and cutting the number of ministers.,jns_yb
+2026,term-limits,reservists,10,Eight-year / two-term limit for prime ministers.,jns_res
+2026,haredi-draft,utj,0,Wants a law shielding yeshiva students from compulsory service and won't join a government that doesn't pass one.,jns_haredi|toi_deri|ipf
+2026,haredi-draft,shas,0.5,Won't join a government without a law preserving sweeping exemptions. Somewhat more open than UTJ to recruitment targets.,toi_deri|jns_haredi
+2026,haredi-draft,otzma,3,Favors encouraging Haredi enlistment through incentives rather than coercion.,jns_otzma
+2026,haredi-draft,rzp,4,Smotrich backs exemptions for full-time yeshiva students but wants other Haredi men to enlist. Zehut wants a month of basic training for all men.,jns_rz|ipf
+2026,haredi-draft,likud,4.5,"Netanyahu: ""Whoever does not study Torah will enlist."" Opened the door to sanctions, but still supports exemptions for full-time students.",jns_likud|ipf
+2026,haredi-draft,amcha,7.5,"A Basic Law on service obligations, with at most 25% of each Haredi cohort recognized as Torah students. Winter won't join a government until it passes.",jns_amcha|toi_winter
+2026,haredi-draft,yashar,8.5,"Compulsory service for all. Torah deferrals capped at 3% of a cohort, and evaders face criminal penalties and loss of benefits.",jns_yashar|ipf
+2026,haredi-draft,together,8.5,"Mandatory service for all. Bennett: ""I will not put them in prison, but they will not receive a shekel from the state.""",jns_together|ji_together
+2026,haredi-draft,democrats,9,"Universal military or civilian service, with the IDF choosing recruits first and benefits withdrawn from evaders.",jns_dem|ipf
+2026,haredi-draft,yb,9.5,Universal military or civilian service. Evaders would lose benefits and public-sector jobs and face travel and voting restrictions.,jns_yb|ipf
+2026,haredi-draft,reservists,10,"Service for all from age 18. Hendel: ""Anyone who chooses not to serve... gets nothing from the state."" Proposes stripping voting rights from evaders.",jns_res
+2026,arab-service,joint,0.5,Rejects a state-imposed national-service arrangement. Any framework must be agreed with the Arab community's leadership.,jns_arab
+2026,arab-service,raam,3,"Proposed a civilian-service framework for young Arab citizens, focused on jobs and community work rather than compulsory enlistment.",jns_arab
+2026,arab-service,democrats,8,"""Universal military or civilian service.""",jns_dem
+2026,arab-service,together,8,Mandatory service for all.,ji_together|jns_together
+2026,arab-service,yashar,9,"Compulsory military or civilian service for all population groups, explicitly including Haredim and Arabs.",jns_yashar
+2026,arab-service,yb,9.5,"Universal military or civilian service that applies to Haredim and Arabs, with sanctions for evaders.",jns_yb
+2026,arab-service,reservists,10,"Military or civilian service from age 18 for all Israelis, including Haredi and Arab citizens.",jns_res
+2026,evader-benefits,utj,0,"Prioritizes childcare subsidies, family assistance, and funding for Haredi institutions.",jns_haredi|ipf
+2026,evader-benefits,shas,0.5,Seeks continued state support for yeshivas and welfare for Haredi families.,jns_haredi|ipf
+2026,evader-benefits,likud,5,Has opened the door to legal consequences for draft dodgers while keeping exemptions for full-time students.,jns_likud
+2026,evader-benefits,yashar,9,Evaders without an exemption lose benefits and face criminal penalties.,jns_yashar
+2026,evader-benefits,democrats,9,Withdraw benefits from draft evaders.,jns_dem
+2026,evader-benefits,together,10,"Evaders ""will not receive a shekel."" Would withdraw yeshiva stipends, municipal-tax discounts, and childcare subsidies.",jns_together|jpost_lgbt
+2026,evader-benefits,yb,10,Evaders lose state benefits and are barred from public-sector jobs.,jns_yb
+2026,evader-benefits,reservists,10,"""Anyone who chooses not to serve in the State of Israel gets nothing from the state.""",jns_res
+2026,civil-marriage,democrats,0,"Civil marriage and divorce, recognition of non-Orthodox conversions.",jns_dem|ipf
+2026,civil-marriage,yb,0.5,"Would introduce ""civil marriage and divorce."" Strongly secular, favoring separation of religion and state.",jns_yb|ipf
+2026,civil-marriage,together,1.5,"Lapid: ""there should be a parallel civil marriage option for anyone who wants it."" Proposes civil-union registration with marriage-equivalent rights.",jpost_lgbt|jns_together
+2026,civil-marriage,rzp,9,Seeks a greater role for Jewish law and values in public life and stresses the state's Jewish character.,ipf|jns_rz
+2026,civil-marriage,shas,10,"Keep Orthodox authority over marriage, conversion, and religious services. Opposes civil marriage.",jns_haredi
+2026,civil-marriage,utj,10,"Keep Orthodox authority over marriage, conversion, and religious services. Opposes civil marriage.",jns_haredi
+2026,civil-marriage,yashar,,"The platform stresses Israel's ""Jewish-democratic character"" but takes no explicit position on civil marriage.",jns_yashar
+2026,shabbat-transport,democrats,0.5,"""Public transportation on Shabbat, with local discretion over services.""",jns_dem|ipf
+2026,shabbat-transport,yb,1,Allowed according to local circumstances. Municipalities would control business opening hours.,jns_yb
+2026,shabbat-transport,together,1,Shabbat public transport decided locally.,jns_together
+2026,shabbat-transport,shas,9.5,Resists expanding public transportation on Shabbat.,jns_haredi
+2026,shabbat-transport,utj,9.5,Resists expanding public transportation on Shabbat and wants the religious status quo preserved.,jns_haredi|ipf
+2026,kashrut,democrats,0,"""An end to the Chief Rabbinate's monopoly over kosher certification.""",jns_dem
+2026,kashrut,yb,0.5,Restore competition in kosher certification.,jns_yb
+2026,kashrut,together,1,Recognize international kosher certification to lower food prices.,jns_together
+2026,kashrut,reservists,2,Zelekha: open kosher certification to competing rabbis under government supervision.,jns_res
+2026,kashrut,shas,9.5,Keep Orthodox authority over religious services.,jns_haredi
+2026,kashrut,utj,9.5,Keep Orthodox authority over religious services.,jns_haredi
+2026,core-curriculum,shas,0.5,"Seeks public funding for Haredi schools while protecting their autonomy, even where the full core curriculum isn't taught.",jns_haredi|ipf
+2026,core-curriculum,utj,0.5,"Seeks public funding for Haredi schools while protecting their autonomy, even where the full core curriculum isn't taught.",jns_haredi|ipf
+2026,core-curriculum,rzp,4,"Zehut: parental control, school vouchers, and lighter core requirements, but no vouchers for schools that drop core studies entirely.",jns_rz
+2026,core-curriculum,amcha,7,Core studies alongside Jewish and Zionist values.,jns_amcha
+2026,core-curriculum,yashar,8.5,"""Compulsory core studies"" in math, English, and Hebrew, plus stronger Jewish education.",jns_yashar
+2026,core-curriculum,together,9,"All schools must teach the full core curriculum, including math and English.",jns_together
+2026,core-curriculum,democrats,9.5,End special funding for Haredi school networks that don't teach core subjects.,jns_dem
+2026,temple-mount,likud,5,"Netanyahu says the status quo ""would not change"" and that Ben-Gvir's moves are coordinated with him. He told the cabinet that Jewish prayer ""does not breach"" the status quo. Some Likud ministers warned Ben-Gvir is ""reckless.""",newarab_tm|toi_tm
+2026,temple-mount,rzp,9.5,"Backs expanding Jewish prayer. Smotrich has called for a synagogue on the Mount, and Zehut would remove the Islamic Waqf.",jns_rz
+2026,temple-mount,otzma,10,Promotes Jewish prayer on the Mount as a religious necessity and an expression of sovereignty.,jns_otzma|ipf
+2026,lgbt,democrats,0,"""Equal marriage, adoption and surrogacy rights for same-sex couples.""",jns_dem
+2026,lgbt,together,1,"Lapid: legislation within 100 days ""that says the rights of every couple in Israel will be equal."" Bennett, who once opposed it, says his government would ""advance same-sex marriage.""",jpost_lgbt|jta_pride
+2026,lgbt,utj,9.5,"A UTJ lawmaker called the LGBTQ community ""the most dangerous thing for the State of Israel"" (2023). Haredi lawmakers seek to roll back rights.",jta_pride
+2026,economy,joint,0.5,"Nationalize privatized companies, cap rent at 20%, create a state mortgage bank, free education, a 30% capital-gains tax.",jns_arab
+2026,economy,democrats,2,"A larger state role: shorter work week, expanded childcare and public housing, stronger unions, action against monopolies.",jns_dem|ipf
+2026,economy,shas,3,Focuses on low-income households and food assistance. Deri tied budget support to food-voucher funding.,jns_haredi
+2026,economy,utj,3,"Housing for Haredi communities, childcare subsidies, family assistance.",jns_haredi
+2026,economy,yb,5.5,"Cut regulation, open imports, break up monopolies. Also subsidized housing and higher benefits for low-pension seniors.",jns_yb
+2026,economy,yashar,6,"Competition plus public investment: remove import barriers, curb monopolies, invest in infrastructure in the north and south.",jns_yashar
+2026,economy,together,6.5,"Market competition: European standards, lower agricultural tariffs, a target of ""cutting supermarket-basket prices by 30% within three years.""",jns_together
+2026,economy,likud,7,"Generally free-market, cutting regulation (""What's Good for Europe is Good for Israel""), though some MKs back interventionist measures.",jns_likud|ipf
+2026,economy,amcha,7,"Break up monopolies, remove import barriers, reduce bureaucracy, plus urban renewal in the periphery.",jns_amcha
+2026,economy,rzp,7.5,RZP leans free-market but uses intervention such as childcare subsidies and bank taxes. Zehut wants a flat income tax and land privatization.,jns_rz
+2026,economy,reservists,8.5,"New Economic Party: cut VAT from 18% to 12% over six years, abolish food tariffs and quotas, lower income and corporate taxes.",jns_res
+2026,jewish-civic,joint,0,"Balad seeks to replace the Jewish-national constitutional framework with a ""state of all its citizens"" and end official recognition of Zionist institutions.",jns_arab|ipf
+2026,jewish-civic,raam,3,"Abbas: ""The Jewish character of the state is a reality imposed upon us."" Arab parties accept it in practice and focus on equality.",jns_arab|ipf
+2026,jewish-civic,together,6,Proposes a constitution grounded in the 1948 Declaration of Independence.,jns_together
+2026,jewish-civic,yashar,6.5,"Joining the government requires accepting Israel's ""Jewish-democratic character"" and upholding the Declaration of Independence.",jns_yashar|ipf
+2026,jewish-civic,rzp,9,Seeks a greater role for Jewish law and values in public life.,ipf|jns_rz
+2026,jewish-civic,otzma,10,Kahanist and ultranationalist. Hardline on Israeli Arabs.,ipf|ipf_pdf
+2026,netanyahu-bloc,democrats,0,"Member of the ""Change bloc,"" whose priority is a government without Netanyahu.",ipf_pdf|ipf
+2026,netanyahu-bloc,yashar,0,Eisenkot is the main challenger for the premiership. Change bloc.,ipf_pdf|ipf
+2026,netanyahu-bloc,together,0,Bennett is running for PM. Change bloc.,ipf_pdf|jpost_lgbt
+2026,netanyahu-bloc,yb,0,"Change bloc. Liberman calls Netanyahu Deri's ""puppet.""",ipf_pdf|toi_deri
+2026,netanyahu-bloc,joint,1,"Won't join a coalition but may give outside support to a non-Netanyahu government. ""There is no automatic support.""",ipf|jns_arab
+2026,netanyahu-bloc,raam,1.5,Has sought a role in an Eisenkot-led government.,ipf|jns_arab
+2026,netanyahu-bloc,reservists,5,"Will recommend ""whoever brings the most Zionist seats."" Open to a Netanyahu–Eisenkot–Bennett unity government.",jns_res
+2026,netanyahu-bloc,utj,7,"In the Netanyahu bloc, but divided: Asher is open to serving under Eisenkot, while Porush rejects that.",jns_haredi|ipf_pdf
+2026,netanyahu-bloc,shas,8,Stays with Netanyahu. Deri favors a broad Netanyahu-led government that includes Eisenkot.,jns_haredi|ipf
+2026,netanyahu-bloc,amcha,9,Backs Netanyahu for PM while trying to change the right's direction from within.,jns_amcha|ipf_pdf
+2026,netanyahu-bloc,rzp,9.5,"Netanyahu bloc, with a surplus-vote deal with Likud.",ipf_pdf
+2026,netanyahu-bloc,otzma,9.5,Netanyahu bloc. Opposes a broad coalition with Yashar or Together.,jns_otzma|ipf_pdf
+2026,netanyahu-bloc,likud,10,Netanyahu's own party.,jns_likud
+2026,arab-parties,raam,0,"Seeks to enter government, and is the most open of the Arab parties to joining one.",jns_arab|ipf
+2026,arab-parties,democrats,1,"Golan: ""Yes, with Ra'am. Jewish-Arab partnership in government is a positive thing.""",jns_dem
+2026,arab-parties,joint,2,"Won't join a coalition on principle, but offers conditional outside support for a minority government.",jns_arab|ipf
+2026,arab-parties,yashar,5.5,"Ruled out Ra'am under its current positions, but left a minority government relying on Arab votes open.",jns_yashar|toi_eisenkot_raam
+2026,arab-parties,together,8,"Bennett ""ruled out another coalition with Ra'am,"" whether as a partner or as outside support for a minority government.",jns_together
+2026,arab-parties,yb,9.5,"Rules out ""a coalition containing haredi or Arab parties"" and any minority government relying on them.",jns_yb
+2026,arab-parties,reservists,9.5,Won't give decisive votes to any government that depends on Arab or Haredi parties.,jns_res|ipf
+2026,arab-parties,otzma,10,Kahanist and hardline on Israeli Arabs.,ipf|ipf_pdf
+2026,haredi-parties,utj,0,A Haredi party. Will join only a government that passes an exemption law.,toi_deri
+2026,haredi-parties,shas,0,A Haredi party. Will join only a government that passes an exemption law.,toi_deri
+2026,haredi-parties,likud,1,Its likely partners include Shas and United Torah Judaism.,jns_likud
+2026,haredi-parties,otzma,1,Its likely partners include Shas and UTJ.,jns_otzma
+2026,haredi-parties,yashar,5,"Eisenkot sees ""no Arab or haredi party that accepts these rules"" now, but has signaled openness to Shas if it accepts compulsory service.",jns_yashar|toi_deri
+2026,haredi-parties,together,7,"Sources differ: JNS says Bennett hasn't explicitly excluded Haredi parties, while the Jerusalem Post reports he rules out coalition deals with them. He insists on universal service either way.",jns_together|jpost_lgbt
+2026,haredi-parties,amcha,7.5,Wants a government whose majority does not depend on the Haredi parties.,jns_amcha
+2026,haredi-parties,yb,10,Rules out a coalition containing Haredi parties.,jns_yb
+2026,haredi-parties,reservists,10,Won't give decisive votes to a government that depends on Haredi parties.,jns_res
+2022,pal-state,balad,0.5,Advocates one state in which Israel would cease to be a Jewish state; also backs a Palestinian state with Jerusalem as its capital and refugee return.,alg22|i24_22
+2022,pal-state,raam,0.5,"""Supports the establishment of a Palestinian state with Jerusalem as its capital"" and refugee return.",alg22|i24_22
+2022,pal-state,hadash-taal,1,Supports a two-state solution and the evacuation of all West Bank settlements.,alg22|i24_22
+2022,pal-state,meretz,1,"""Believes in a two-state solution"" and opposes the settlement enterprise.",alg22|i24_22
+2022,pal-state,labor,1.5,"""Advocates for a two-state solution.""",alg22|i24_22
+2022,pal-state,yesh-atid,2.5,"Seeks peace with ""two states for two peoples"" while keeping the settlement blocs.",alg22|i24_22
+2022,pal-state,yb,4,"Supports a negotiated agreement with ""land swaps in exchange for peace.""",alg22
+2022,pal-state,national-unity,5,"Split: Sa'ar opposes a Palestinian state, while Eisenkot then advocated a two-state solution.",alg22
+2022,pal-state,shas,6.5,"Once open to land-for-peace, now ""more hawkish on security matters.""",alg22
+2022,pal-state,likud,8.5,"""Currently, Netanyahu and Likud are opposed to the creation of a Palestinian state.""",alg22
+2022,pal-state,jewish-home,9.5,Opposes any establishment of a Palestinian state.,i24_22
+2022,pal-state,rzp,10,"""Opposed to any territorial concessions.""",alg22|i24_22
+2022,pal-state,otzma,10,"Backs one state, including annexing the West Bank.",i24_22
+2022,pal-state,utj,,"Historically open to negotiations, but no formal position on the issue.",alg22|i24_22
+2022,sovereignty,hadash-taal,0,"Calls for ""the removal of all Jewish communities in the West Bank.""",alg22|i24_22
+2022,sovereignty,raam,0,"Calls for the ""dismantlement of all Jewish communities in Judea and Samaria.""",alg22
+2022,sovereignty,meretz,0.5,"""Opposed to the settlement enterprise""; freeze settlement construction.",alg22|i24_22
+2022,sovereignty,labor,2,"""Cessation of construction outside of settlement blocs.""",alg22
+2022,sovereignty,yesh-atid,3,Keep the settlement blocs while halting construction.,alg22
+2022,sovereignty,shas,7,"""Opposes any freeze on constructing Israeli settlements in the West Bank.""",i24_22
+2022,sovereignty,likud,7.5,"""Likud supports the Jewish communities in Judea and Samaria.""",alg22|i24_22
+2022,sovereignty,jewish-home,9,"Supports expanding settlement and the ""extension of Israeli sovereignty over the West Bank.""",alg22|i24_22
+2022,sovereignty,rzp,9.5,Supports the Jewish communities in Judea and Samaria and opposes any territorial concession.,alg22|i24_22
+2022,sovereignty,otzma,10,"One state, including annexing the West Bank.",i24_22
+2022,sovereignty,utj,,"""Non-Zionist and has no formal opinion on increasing settlements.""",i24_22
+2022,haredi-draft,utj,0,"""Opposition to the drafting of yeshiva students to the IDF.""",alg22
+2022,haredi-draft,likud,2,"Noted for its ""refusal to draft yeshiva students.""",alg22
+2022,haredi-draft,yesh-atid,9,Ending draft exemptions for the ultra-Orthodox.,alg22|i24_22
+2022,haredi-draft,yb,9,Supports drafting Haredi youth into the IDF.,alg22
+2022,judiciary,jewish-home,7.5,"Supports ""judicial reform.""",alg22
+2022,judiciary,likud,8,"In post-election coalition talks, many Likud members backed an override clause letting 61 MKs re-pass laws struck down by the court.",toi_override22
+2022,judiciary,utj,9,Saw the override clause as a top priority in the 2022 coalition talks.,toi_override22
+2022,judiciary,rzp,10,"""Law and Justice"" plan (Oct 2022): override clause, splitting the attorney general's role, and removing ""breach of trust"" from the criminal code.",jns_rzp22|toi_override22
+2022,civil-marriage,meretz,0,"Separation of religion and state, including civil marriage.",alg22
+2022,civil-marriage,labor,0.5,Supports civil marriage.,alg22
+2022,civil-marriage,yb,0.5,"Supports civil marriage and ""liberal policies regarding the religious nature of the state.""",alg22
+2022,civil-marriage,balad,1,"""Believes in the separation of religion and state.""",alg22
+2022,civil-marriage,shas,9.5,"Focused on ""strengthening the Jewish character of the state.""",alg22
+2022,civil-marriage,utj,10,"""Opposition to any religious reforms.""",alg22
+2022,shabbat-transport,meretz,0,Supports public transport on Shabbat.,alg22
+2022,shabbat-transport,labor,1,"""Limited public transportation on Shabbat.""",alg22
+2022,shabbat-transport,yb,1,Supports opening businesses on Shabbat.,alg22
+2022,shabbat-transport,utj,9.5,"""Opposition to any religious reforms.""",alg22
+2022,lgbt,meretz,0,"""Supports LGBTQ rights.""",alg22
+2022,lgbt,labor,0.5,Supports same-sex marriage.,i24_22
+2022,lgbt,raam,8.5,"""Opposed to pro-LGBTQ legislation.""",alg22
+2022,lgbt,otzma,9,"Its joint-list partners' positions include opposition to ""LGBTQ influence.""",alg22
+2022,lgbt,rzp,9.5,"""Opposes same-sex marriage.""",alg22
+2022,economy,hadash-taal,0.5,"Hadash ""supports a socialist economy.""",alg22|i24_22
+2022,economy,meretz,1.5,Expanding the welfare state; environmental justice.,alg22
+2022,economy,labor,2,Maintain the welfare state and free public education from birth.,alg22
+2022,economy,balad,2,"Equitable distribution of resources, a capital-gains tax, and tax cuts for low-wage workers.",alg22
+2022,economy,raam,3,"More government spending in Arab communities, especially Bedouin areas.",alg22
+2022,economy,utj,3,"""Increasing financial support for its communities.""",alg22
+2022,economy,shas,4,Focus on reducing the high cost of living.,alg22
+2022,economy,yesh-atid,5,Lower housing prices and more funding for education.,alg22
+2022,economy,yb,7,"Private enterprise, breaking up monopolies, more housing construction.",alg22
+2022,economy,likud,7.5,"Economically liberal: lower prices, frozen municipal taxes, more imports, and lower income tax.",alg22
+2022,economy,jewish-home,8,Supports market liberalization.,alg22
+2022,core-curriculum,likud,2,"Promised state funding for Haredi schools, even without core secular subjects.",alg22
+2022,term-limits,likud,0.5,"Netanyahu called the term-limit bill ""Iranian-style"" (Nov 2021).",ih_termlimits
+2022,term-limits,national-unity,10,Both component parties advocate term limits for the prime minister.,alg22|i24_22
+2022,netanyahu-bloc,yesh-atid,0,Lapid led the outgoing government that replaced Netanyahu.,alg22|i24_22
+2022,netanyahu-bloc,meretz,0,Joined the coalition that ended Netanyahu's 12-year tenure.,alg22|i24_22
+2022,netanyahu-bloc,yb,0,Joined the coalition that ended Netanyahu's tenure.,alg22
+2022,netanyahu-bloc,national-unity,0.5,"Among the parties ""vocally committed to not joining a Netanyahu-led government.""",toi_gantz22
+2022,netanyahu-bloc,raam,2,"Sat in the Bennett–Lapid government that replaced Netanyahu, without ministries.",alg22|i24_22
+2022,netanyahu-bloc,jewish-home,7,Split with Zionist Spirit over whether to join a Likud-led coalition.,alg22
+2022,netanyahu-bloc,shas,9.5,"Part of Netanyahu's ""national camp.""",i24_22
+2022,netanyahu-bloc,utj,9.5,"""Firmly entrenched itself in Netanyahu's right-wing bloc.""",alg22|i24_22
+2022,netanyahu-bloc,rzp,10,Part of the right-wing national camp led by Netanyahu.,i24_22
+2022,netanyahu-bloc,otzma,10,Part of the right-wing national camp led by Netanyahu.,i24_22
+2022,netanyahu-bloc,likud,10,"Netanyahu's own party, leading the ""national camp.""",i24_22
+2022,arab-parties,raam,0,Joined the governing coalition as the first independent Arab party to do so.,alg22|i24_22
+2022,jewish-civic,balad,0,"Opposes Israel as a Jewish state; supports a ""binational"" state.",alg22|i24_22
+2022,jewish-civic,raam,3,"""Highly critical of Zionism,"" though Abbas ""accepts the legitimacy of Israel's right to exist.""",alg22
+2022,jewish-civic,national-unity,6.5,"Focus on ""protecting Israel's Jewish identity""; New Hope describes Israel as a ""Jewish and democratic state.""",alg22|i24_22
+2022,jewish-civic,shas,8.5,"Focused on ""strengthening the Jewish character of the state.""",alg22

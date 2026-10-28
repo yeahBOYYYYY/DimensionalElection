@@ -1,0 +1,61 @@
+/* Language switch (on the blue hero) */
+.lang-switch { display: inline-flex; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; padding: 3px; }
+.lang-switch button { border: 0; background: transparent; color: #dce7ff; padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: 13.5px; }
+.lang-switch button.active { background: #fff; color: var(--blue-800); }
+
+/* Mode toggle + axis slots */
+.controls-top { display: flex; flex-direction: column; gap: 10px; }
+.mode-toggle { display: grid; grid-template-columns: 1fr 1fr; background: var(--blue-50); border: 1px solid var(--line); border-radius: 12px; padding: 4px; }
+.mode-toggle button {
+  border: 0; background: transparent; padding: 8px 10px; border-radius: 9px; font-weight: 600; font-size: 14px; color: var(--ink-2);
+  transition: background .2s, color .2s, box-shadow .2s;
+}
+.mode-toggle button.active { background: #fff; color: var(--blue-700); box-shadow: 0 1px 4px rgba(0,40,130,.15); }
+.slots { display: flex; flex-direction: column; gap: 8px; }
+.slot {
+  display: flex; align-items: center; gap: 8px; width: 100%; text-align: start;
+  border: 1.5px dashed var(--blue-300); background: #fff; border-radius: 12px; padding: 6px 12px 6px 6px;
+  font-size: 14px; font-weight: 500; transition: border-color .2s, background .2s;
+}
+.slot.active { border-style: solid; border-color: var(--blue-700); background: var(--blue-50); }
+.slot-tag { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--blue-700); color: #fff; font-size: 12px; font-weight: 700; flex: none; }
+.slot-y .slot-tag { background: var(--sky); }
+.slot-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.swap { align-self: flex-end; border: 1px solid var(--line); background: #fff; border-radius: 10px; width: 34px; height: 34px; font-size: 16px; }
+.swap:hover { background: var(--blue-50); }
+
+/* Topic search + chips */
+.search-row { display: flex; flex-direction: column; gap: 6px; margin: 16px 0 12px; }
+.topic-search {
+  width: 100%; border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; font: inherit; font-size: 15px;
+  background: var(--blue-50); outline: none; transition: border-color .2s, box-shadow .2s, background .2s;
+}
+.topic-search:focus { border-color: var(--blue-500); background: #fff; box-shadow: 0 0 0 4px rgba(37,99,235,.12); }
+.hint { font-size: 13px; color: var(--ink-3); }
+.topic-grid { display: grid; gap: 14px; }
+.cat-block h4 { margin: 4px 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); font-weight: 600; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  border: 1px solid var(--line); background: #fff; padding: 7px 11px; border-radius: 999px; font-size: 13.5px;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: transform .12s, border-color .2s, background .2s, box-shadow .2s, opacity .2s;
+}
+.chip:hover:not(:disabled) { border-color: var(--blue-300); background: var(--blue-50); transform: translateY(-1px); }
+.chip .count { font-size: 11.5px; color: var(--ink-3); }
+.chip.empty { opacity: .5; }
+.chip.sel-x { background: var(--blue-700); color: #fff; border-color: var(--blue-700); box-shadow: 0 4px 14px rgba(0,56,184,.3); opacity: 1; }
+.chip.sel-y { background: var(--sky); color: #fff; border-color: var(--sky); box-shadow: 0 4px 14px rgba(14,165,233,.3); opacity: 1; }
+.chip.sel-x .count, .chip.sel-y .count { color: rgba(255,255,255,.8); }
+.chip .tag { font-size: 10px; font-weight: 700; background: rgba(255,255,255,.25); border-radius: 5px; padding: 1px 5px; }
+.no-results { color: var(--ink-3); font-size: 14px; padding: 6px 2px; }
+
+@media (max-width: 999px) {
+  /* One horizontally scrolling row per category keeps the chart close to the top. */
+  .topic-grid .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-block: 2px 6px; margin-inline: -4px; padding-inline: 4px; }
+  .topic-grid .chips::-webkit-scrollbar { display: none; }
+  .topic-grid .chip { flex: none; }
+  .topic-grid { gap: 8px; }
+  .controls-top { flex-direction: row; flex-wrap: wrap; justify-content: space-between; }
+  .slots { flex-direction: row; flex-wrap: wrap; }
+  .slot { width: auto; max-width: 100%; }
+}

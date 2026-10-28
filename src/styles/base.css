@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: "Rubik", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, #dfe9ff 0%, transparent 60%),
+    radial-gradient(900px 400px at 100% 0%, #e9f1ff 0%, transparent 60%),
+    var(--bg);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+button { font: inherit; color: inherit; cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+a { color: var(--blue-700); }
+[hidden] { display: none !important; }
+h3 { margin: 0 0 12px; font-size: 16px; color: var(--blue-800); }
+.muted { color: var(--ink-3); }
+.link-btn { border: 0; background: none; color: var(--blue-700); font-size: 13px; font-weight: 600; padding: 4px 0; }
+.link-btn:hover { text-decoration: underline; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; flex: none; }
+:focus-visible { outline: 3px solid rgba(37, 99, 235, .45); outline-offset: 2px; }
+
+/* Arrows on axis ends point outward; mirror them in RTL. */
+[dir="rtl"] .arr { display: inline-block; transform: scaleX(-1); }
+.arr { margin-inline: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

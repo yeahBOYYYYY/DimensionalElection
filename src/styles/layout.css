@@ -1,0 +1,82 @@
+/* ───────── Hero ───────── */
+.hero {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(135deg, var(--blue-900) 0%, var(--blue-700) 55%, #2f6bff 100%);
+  padding: 34px 16px 46px;
+}
+.hero-stripe { position: absolute; inset-inline: 0; height: 10px; background: #fff; opacity: .95; }
+.hero-stripe.top { top: 14px; }
+.hero-stripe.bottom { bottom: 14px; }
+.hero-inner { position: relative; z-index: 1; max-width: 1320px; margin: 0 auto; padding: 18px 0 6px; }
+.hero-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.hero-badge {
+  display: inline-block; font-size: 12.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.3);
+  padding: 6px 12px; border-radius: 999px; backdrop-filter: blur(4px);
+}
+.hero h1 { margin: 14px 0 6px; font-size: clamp(34px, 6vw, 60px); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; }
+.hero h1 .accent { background: linear-gradient(90deg, #fff, #b9d0ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero-sub { max-width: 680px; margin: 8px 0 4px; font-size: 16.5px; line-height: 1.5; color: #dce7ff; }
+.hero-alt { margin: 6px 0 0; font-size: 15px; color: #b9cdfa; }
+.hero-star {
+  position: absolute; inset-inline-end: -40px; top: 50%; transform: translateY(-50%) rotate(8deg);
+  width: 300px; height: 300px; fill: none; stroke: rgba(255,255,255,.12); stroke-width: 5; stroke-linejoin: round;
+}
+
+/* ───────── Page grid ───────── */
+.wrap { max-width: 1320px; margin: -22px auto 0; padding: 0 16px 40px; position: relative; z-index: 2; }
+.panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin-bottom: 18px;
+}
+.layout { display: block; }
+.main-col { min-width: 0; }
+body:not(.ready) .layout, body:not(.ready) .legend-panel, body:not(.ready) .method, body:not(.ready) .view-nav { opacity: 0; }
+body[data-view="history"] .layout, body[data-view="history"] .method { display: none; }
+
+/* ───────── View tabs (positions / history) ───────── */
+.view-nav { margin-bottom: 14px; }
+.view-tabs { display: inline-flex; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px; box-shadow: var(--shadow); max-width: 100%; }
+.view-tabs button { border: 0; background: transparent; padding: 9px 18px; border-radius: 10px; font-weight: 600; font-size: 14.5px; color: var(--ink-2); }
+.view-tabs button.active { background: var(--blue-700); color: #fff; }
+.layout, .legend-panel, .method { transition: opacity .3s; }
+
+@media (min-width: 1000px) {
+  .layout { display: grid; grid-template-columns: 360px minmax(0, 1fr); gap: 18px; align-items: start; }
+  .controls { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; scrollbar-width: thin; }
+}
+
+.load-error pre { white-space: pre-wrap; color: var(--ink-3); font-size: 12px; }
+
+/* ───────── Directory & method ───────── */
+.legend { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+.lg {
+  display: flex; align-items: center; gap: 10px; text-align: start; border: 1px solid var(--line); background: #fff;
+  border-radius: 14px; padding: 8px 10px; transition: background .2s, border-color .2s, opacity .2s;
+}
+.lg:hover { background: var(--blue-50); border-color: var(--blue-300); }
+.lg.dim { opacity: .55; }
+.lg-text { min-width: 0; display: flex; flex-direction: column; }
+.lg-name { font-weight: 600; font-size: 14px; }
+.lg-sub { font-size: 12px; color: var(--ink-3); }
+
+.method ul { margin: 0; padding-inline-start: 20px; color: var(--ink-2); line-height: 1.6; font-size: 14.5px; }
+.method li { margin-bottom: 4px; }
+.updated { font-size: 13px; color: var(--ink-3); margin: 12px 0 0; line-height: 1.5; }
+
+/* ───────── Footer ───────── */
+.foot { text-align: center; color: var(--ink-3); font-size: 13px; padding: 10px 16px 30px; }
+.foot p { margin: 4px 0; }
+.foot-small { font-size: 11.5px; }
+.foot-stripe { height: 6px; max-width: 220px; margin: 0 auto 14px; border-radius: 6px; background: linear-gradient(90deg, var(--blue-700), #7dd3fc, var(--blue-700)); }
+
+@media (max-width: 640px) {
+  .panel { padding: 16px; border-radius: 16px; }
+  .hero-star { width: 200px; height: 200px; inset-inline-end: -60px; }
+}

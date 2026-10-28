@@ -1,0 +1,11 @@
+/* Party identity: logo card or initials circle. */
+.badge { display: inline-flex; align-items: center; justify-content: center; flex: none; overflow: hidden; font-weight: 700; letter-spacing: .02em; }
+.badge-logo { background: #fff; border-radius: 9px; border: 1.5px solid var(--party); padding: 2px 4px; }
+.badge-logo img { width: 100%; height: 100%; min-width: 0; object-fit: contain; display: block; }
+.badge-abbr { border-radius: 50%; }
+
+.badge-sm.badge-abbr { width: 24px; height: 24px; font-size: 8.5px; }
+.badge-md.badge-abbr { width: 34px; height: 34px; font-size: 10.5px; }
+.badge-lg.badge-abbr { width: 58px; height: 58px; font-size: 16px; }
+.badge-md.badge-logo { width: 64px; height: 34px; }
+.badge-lg.badge-logo { width: 150px; height: 70px; border-radius: 14px; padding: 8px 10px; box-shadow: 0 4px 16px rgba(0,0,0,.18); }

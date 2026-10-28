@@ -1,0 +1,105 @@
+{
+  "meta": { "name": "English", "short": "EN", "dir": "ltr" },
+  "strings": {
+    "app.title": "Dimensional Election",
+    "app.titleA": "Dimensional",
+    "app.titleB": "Election",
+
+    "hero.badge": "Israeli Knesset elections",
+    "hero.sub": "Where does each party stand? Pick an issue to see every party on one line, or pick two to see them on a plane. Click any party to see the sources.",
+    "hero.alt": "איפה כל מפלגה עומדת — בנושא אחד או בשניים",
+
+    "lang.label": "Language",
+
+    "view.label": "View",
+    "view.chart": "Positions",
+    "view.history": "Party history",
+
+    "mode.label": "View mode",
+    "mode.1d": "1D · One issue",
+    "mode.2d": "2D · Two issues",
+
+    "axis.swap": "Swap axes",
+
+    "topics.search": "Search topics… (e.g. draft, Iran, marriage)",
+    "topics.hint1d": "{n} topics · click one to plot it",
+    "topics.hint2dX": "Choosing the horizontal (X) axis — click a slot to switch",
+    "topics.hint2dY": "Choosing the vertical (Y) axis — click a slot to switch",
+    "topics.none": "No topics match “{q}”.",
+    "topics.count_one": "{count} party placed",
+    "topics.count_other": "{count} parties placed",
+
+    "filters.title": "Filters",
+    "filters.elections": "Elections",
+    "filters.groups": "Groups",
+    "filters.groupsHint": "Show only parties in any selected group",
+    "filters.parties": "Parties",
+    "filters.partiesHint": "Each election’s lists are filtered separately",
+    "filters.all": "All",
+    "filters.none": "None",
+    "filters.reset": "Reset filters",
+    "filters.atLeastOne": "Select at least one election",
+
+    "group.kind.bloc": "Blocs",
+    "group.kind.family": "Political families",
+
+    "chart.2dTitle": "{x} × {y}",
+    "chart.2dKicker": "2D comparison",
+    "chart.axisX": "X",
+    "chart.axisY": "Y",
+    "chart.empty": "No party matches the current filters.",
+    "chart.unplaced": "No clear position (not placed)",
+    "chart.unplaced2d": "No clear position on one or both topics (not placed)",
+    "chart.unclear": "unclear / disputed",
+    "chart.noPosition": "no stated position found",
+
+    "legend.title": "Parties",
+    "legend.ran": "Ran in {years}",
+
+    "drawer.close": "Close",
+    "drawer.leader": "Leader",
+    "drawer.factions": "Components",
+    "drawer.seats": "Seats won",
+    "drawer.years": "Active: {years}",
+    "drawer.present": "present",
+    "drawer.lists": "Election lists",
+    "drawer.showHistory": "Show on the history timeline",
+    "drawer.selected": "Selected topic",
+    "drawer.axisX": "X axis",
+    "drawer.axisY": "Y axis",
+    "drawer.allOther": "All other positions",
+    "drawer.placement": "Placement: {v} / 10",
+    "drawer.unclear": "No clear position, not placed.",
+    "drawer.none": "The reporting we reviewed had no clear, sourced statement on this topic, so it isn't placed.",
+    "drawer.sources": "Sources ({n})",
+    "drawer.plot": "Plot this topic →",
+
+    "lineage.merged": "Merged",
+    "lineage.split": "Split",
+    "lineage.joint_list": "Joint list",
+    "lineage.renamed": "Renamed",
+
+    "history.title": "How the parties changed",
+    "history.intro": "Read it like a version-control history: each colored line is a party, with the newest events at the top. Lines join when parties merge or run together, and branch off when they split. Click a party to highlight its line and open its details.",
+    "history.now": "Today",
+    "history.founded": "{party} was founded",
+    "history.ended": "{party} ended",
+    "history.link": "{from} → {to}",
+    "history.lists_one": "{count} list ran",
+    "history.lists_other": "{count} lists ran",
+    "history.seats_one": "{count} seat",
+    "history.seats_other": "{count} seats",
+    "history.clearFocus": "Show all parties",
+
+    "method.title": "How to read this",
+    "method.1": "Each topic runs from 0 (the left label) to 10 (the right label). The ends describe the issue, not \"left-wing\" or \"right-wing.\"",
+    "method.2": "Placements are editorial summaries of the cited reporting (party explainers, interviews, votes and statements). They are not scores the parties supplied themselves.",
+    "method.3": "When a party gave no clear position, or the reporting conflicts, it appears under \"No clear position\" instead of being guessed onto the line.",
+    "method.4": "Choose several elections to see them together: every marker carries its election year, and each election’s lists are separate entries. The Party history tab shows how parties merged and split.",
+    "method.5": "Click any party to open its stance and sources. Please check the sources before you rely on a placement.",
+    "method.updated": "Data covers: {elections}.",
+
+    "footer.text": "Dimensional Election · an independent, non-partisan visual guide · every claim is linked to its source",
+    "footer.logos": "Party logos via Wikimedia Commons / Wikipedia (see assets/logos/CREDITS.csv)."
+  }
+}
