@@ -1,0 +1,92 @@
+.viz { min-height: 420px; }
+.viz-head { margin-bottom: 8px; }
+.viz-cat { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--blue-500); font-weight: 600; }
+.viz h2 { margin: 4px 0; font-size: clamp(21px, 3vw, 28px); letter-spacing: -.01em; }
+.viz-q { margin: 0; color: var(--ink-2); font-size: 15px; max-width: 720px; }
+.stage { position: relative; margin-top: 14px; }
+.chart { position: relative; }
+.empty-note { padding: 30px 0; text-align: center; color: var(--ink-3); }
+
+/* Markers — positioned with physical left/top computed by the chart (already mirrored for RTL). */
+.markers { position: absolute; inset: 0; }
+.marker {
+  position: absolute; transform: translate(-50%, -50%); padding: 0; border: 0; background: none;
+  border-radius: 10px; z-index: 2;
+  transition: left .6s var(--ease), top .6s var(--ease), opacity .3s, transform .15s;
+}
+.marker.entering { opacity: 0; transform: translate(-50%, -50%) scale(.6); }
+.marker .badge { border: 3px solid #fff; box-shadow: 0 3px 10px rgba(0,24,80,.25); width: 42px; height: 42px; font-size: 11.5px; }
+.marker:hover, .marker:focus-visible { transform: translate(-50%, -50%) scale(1.14); z-index: 6; outline: none; }
+.marker:focus-visible .badge { outline: 3px solid rgba(37,99,235,.55); outline-offset: 2px; }
+.marker-tag {
+  position: absolute; top: -7px; inset-inline-end: -8px; font-size: 9.5px; font-weight: 700; line-height: 1;
+  background: var(--ink); color: #fff; border-radius: 6px; padding: 2px 4px; pointer-events: none;
+}
+.tip {
+  position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%) translateY(4px);
+  background: var(--ink); color: #fff; font-size: 12px; font-weight: 500; white-space: nowrap;
+  padding: 5px 9px; border-radius: 8px; pointer-events: none; opacity: 0; transition: opacity .15s, transform .15s;
+}
+.marker:hover .tip, .marker:focus-visible .tip { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* SVG overlay: stems + anchors */
+.overlay { position: absolute; inset: 0; overflow: visible; pointer-events: none; z-index: 1; }
+.overlay .stem { stroke: var(--blue-300); stroke-width: 2; stroke-linecap: round; }
+.overlay .anchor { fill: var(--blue-700); stroke: #fff; stroke-width: 2; }
+
+/* 1D line: every entry on one track */
+.line-wrap { position: relative; width: 100%; transition: height .4s var(--ease); }
+.bands { position: absolute; inset: 0; pointer-events: none; }
+.track { position: absolute; height: 10px; border-radius: 999px; background: var(--scale-gradient); box-shadow: inset 0 1px 2px rgba(0,0,0,.12); }
+.tick { position: absolute; width: 1px; height: 8px; background: var(--blue-300); transform: translateX(-50%); }
+.tick-label { position: absolute; transform: translateX(-50%); font-size: 11px; color: var(--ink-3); }
+.pole-labels { display: flex; justify-content: space-between; gap: 16px; margin-top: 6px; }
+.pole { font-size: 14px; font-weight: 600; max-width: 45%; }
+.pole-start { color: #0369a1; }
+.pole-end { color: var(--blue-700); text-align: end; }
+
+/* 2D plane */
+.plane-outer { display: grid; grid-template-columns: 26px 1fr; gap: 6px; }
+.y-label {
+  writing-mode: vertical-rl; transform: rotate(180deg); display: flex; justify-content: space-between;
+  font-size: 13px; font-weight: 600; color: #0284c7; padding: 6px 0; contain: size; min-height: 0;
+}
+.y-label span { max-height: 48%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.plane {
+  position: relative; width: 100%; aspect-ratio: 1.35 / 1; min-height: 320px; border-radius: 16px; overflow: visible;
+  background:
+    linear-gradient(to right, rgba(0,56,184,.06) 1px, transparent 1px) 0 0 / 10% 10%,
+    linear-gradient(to top, rgba(0,56,184,.06) 1px, transparent 1px) 0 0 / 10% 10%,
+    linear-gradient(135deg, #f0f9ff 0%, #ffffff 45%, #eef3ff 100%);
+  border: 1px solid var(--line);
+}
+.plane .axis-h, .plane .axis-v { position: absolute; background: rgba(0,56,184,.22); }
+.plane .axis-h { left: 0; right: 0; top: 50%; height: 2px; }
+.plane .axis-v { top: 0; bottom: 0; left: 50%; width: 2px; }
+.plane-inner { position: absolute; inset: 34px; }
+.x-label { display: flex; justify-content: space-between; gap: 12px; margin: 8px 0 0; margin-inline-start: 32px; font-size: 13px; font-weight: 600; color: var(--blue-700); }
+.x-label span:last-child { text-align: end; }
+.axis-name { font-size: 12px; color: var(--ink-3); margin: 2px 0 0; margin-inline-start: 32px; text-align: center; }
+.axis-name b { color: var(--ink-2); }
+
+/* Unplaced tray */
+.unplaced { margin-top: 18px; border-top: 1px dashed var(--line); padding-top: 14px; }
+.unplaced:empty { display: none; }
+.unplaced h4 { margin: 0 0 8px; font-size: 13px; color: var(--ink-3); font-weight: 600; }
+.unplaced-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.uchip {
+  display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--blue-50);
+  border-radius: 999px; padding: 4px 12px 4px 4px; font-size: 13px;
+}
+[dir="rtl"] .uchip { padding: 4px 4px 4px 12px; }
+.uchip.has-note { background: #fff; border-color: var(--blue-300); }
+.uchip:hover { border-color: var(--blue-500); }
+.uchip small { color: var(--ink-3); }
+.uchip .year { font-size: 11px; font-weight: 700; color: var(--ink-2); }
+
+@media (max-width: 640px) {
+  .pole { font-size: 12.5px; }
+  .plane { aspect-ratio: 1 / 1.1; }
+  .plane-inner { inset: 26px; }
+  .marker .badge { width: 34px; height: 34px; font-size: 10px; border-width: 2px; }
+}

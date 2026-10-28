@@ -1,0 +1,21 @@
+id,abbr,name,color,logo,founded,ended,description
+joint,JL,Joint List,#16a34a,joint.png,2015,,"Alliance of Arab parties (Hadash, Ta'al, Balad); ran 2015–2021 and revived for 2026."
+raam,RA,Ra'am,#84cc16,raam.png,1996,,United Arab List; Islamist-rooted party focused on Arab citizens' interests.
+hadash-taal,HT,Hadash–Ta'al,#dc2626,hadash-taal.png,2022,2026,Joint run of Hadash (Ayman Odeh) and Ta'al (Ahmad Tibi) after the Joint List split in 2022.
+balad,BLD,Balad,#ea7317,balad.png,1995,,Arab nationalist party advocating a 'state of all its citizens'.
+meretz,MRZ,Meretz,#22c55e,meretz.png,1992,2024,"Left-wing, secular, social-democratic party. Merged into The Democrats in 2024."
+labor,LAB,Labor,#ef4444,labor.png,1968,2024,Historic center-left party. Merged into The Democrats in 2024.
+democrats,DEM,The Democrats,#e11d48,democrats.png,2024,,"Social-democratic, liberal-Zionist merger of Labor and Meretz, led by Yair Golan."
+yesh-atid,YA,Yesh Atid,#2563eb,yesh-atid.png,2012,,"Centrist, secular-liberal party led by Yair Lapid. Runs inside Together in 2026."
+national-unity,NU,National Unity,#0ea5e9,national-unity.png,2022,2025,"Centrist alliance of Benny Gantz's Blue and White and Gideon Sa'ar's New Hope, joined by Gadi Eisenkot; later broke apart."
+yashar,YSR,Yashar!,#06b6d4,yashar.png,2025,,"Centrist, security-focused party founded by former IDF chief Gadi Eisenkot."
+together,TOG,Together (Beyachad),#3b82f6,,2026,,Joint list of Naftali Bennett (Bennett 2026) and Yair Lapid (Yesh Atid).
+yb,YB,Yisrael Beiteinu,#8b5cf6,yb.png,1999,,Secular nationalist party with a base among immigrants from the former Soviet Union.
+reservists,RES,Reservists–Economy,#a3a33a,reservists.jpg,2025,,Joint list of Yoaz Hendel's Reservists and Yaron Zelekha's New Economic Party.
+jewish-home,JH,Jewish Home,#0e7490,jewish-home.png,2008,,Religious-Zionist party; in 2022 led by Ayelet Shaked. Did not run in 2026.
+utj,UTJ,United Torah Judaism,#334155,utj.png,1992,,Ashkenazi Haredi alliance of Agudat Yisrael and Degel HaTorah.
+shas,SHS,Shas,#0f766e,shas.png,1984,,Mizrahi Haredi party led by Aryeh Deri.
+likud,LKD,Likud,#1e3a8a,likud.png,1973,,Dominant right-wing party led by Benjamin Netanyahu.
+amcha,AMC,Amcha Yisrael,#c026d3,amcha.png,2026,,"Right-wing, security-focused party founded by Brig. Gen. (res.) Ofer Winter."
+rzp,RZ,Religious Zionist Party,#f97316,rzp.png,1998,,Far-right religious-Zionist party led by Bezalel Smotrich (formerly Tkuma).
+otzma,OY,Otzma Yehudit,#eab308,otzma.png,2012,,"Far-right, Kahanist party led by Itamar Ben-Gvir."

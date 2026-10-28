@@ -1,0 +1,8 @@
+from_party_id,to_party_id,year,kind,note,source_ids
+labor,democrats,2024,merged,Labor and Meretz merged to form The Democrats under Yair Golan.,wiki_democrats|toi_dem_merger
+meretz,democrats,2024,merged,Meretz and Labor merged to form The Democrats under Yair Golan.,wiki_democrats|toi_dem_merger
+yesh-atid,together,2026,joint_list,"Yesh Atid runs inside Naftali Bennett's Together list, with Lapid second.",ji_together
+national-unity,yashar,2025,split,Gadi Eisenkot left National Unity and founded Yashar!.,wiki_yashar|jns_yashar
+national-unity,likud,2025,split,Gideon Sa'ar's New Hope left National Unity and later merged into Likud.,toi_likud_newhope
+hadash-taal,joint,2026,joint_list,Hadash and Ta'al re-formed the Joint List together with Balad.,toi_joint_slate|ipf
+balad,joint,2026,joint_list,Balad rejoined Hadash and Ta'al in the revived Joint List.,toi_joint_slate|ipf

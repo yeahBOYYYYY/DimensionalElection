@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>בחירות במימדים</title>
+  <meta name="description" content="איפה כל מפלגה עומדת? השוואה בין כל המפלגות לאורך מערכות הבחירות לכנסת, בנושא אחד או בשניים, עם מקור לכל מיקום.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 8 86 71H14z M50 92 14 29h72z' fill='none' stroke='%230038b8' stroke-width='8' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/styles/tokens.css">
+  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/styles/layout.css">
+  <link rel="stylesheet" href="src/styles/controls.css">
+  <link rel="stylesheet" href="src/styles/filters.css">
+  <link rel="stylesheet" href="src/styles/chart.css">
+  <link rel="stylesheet" href="src/styles/badges.css">
+  <link rel="stylesheet" href="src/styles/drawer.css">
+  <link rel="stylesheet" href="src/styles/history.css">
+  <script type="module" src="src/main.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-stripe top"></div>
+    <div class="hero-inner">
+      <div class="hero-row">
+        <div class="hero-badge" data-i18n="hero.badge">הבחירות לכנסת</div>
+        <div data-component="language-switch"></div>
+      </div>
+      <h1><span data-i18n="app.titleA">בחירות</span> <span class="accent" data-i18n="app.titleB">במימדים</span></h1>
+      <p class="hero-sub" data-i18n="hero.sub"></p>
+      <p class="hero-alt" data-i18n="hero.alt"></p>
+    </div>
+    <div class="hero-stripe bottom"></div>
+    <svg class="hero-star" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 6 88 72H12z M50 94 12 28h76z"/></svg>
+  </header>
+
+  <main class="wrap">
+    <div class="load-error panel" data-load-error hidden>
+      <p><b>לא ניתן לטעון את הנתונים.</b> אם פתחתם את index.html ישירות מהדיסק, הפעילו שרת מקומי (<code>npm start</code>).</p>
+      <p dir="ltr" lang="en"><b>Couldn't load the dataset.</b> If you opened index.html directly from disk, run a local server instead (<code>npm start</code>) and open http://localhost:8080.</p>
+      <pre data-load-error-detail></pre>
+    </div>
+
+    <nav class="view-nav" data-component="view-tabs"></nav>
+
+    <div class="layout">
+      <aside class="panel controls">
+        <div data-component="axis-controls"></div>
+        <div data-component="topic-picker"></div>
+      </aside>
+
+      <div class="main-col">
+        <section class="panel filters-panel" data-component="filter-panel"></section>
+        <section class="panel viz" aria-live="polite" data-component="chart-panel"></section>
+      </div>
+    </div>
+
+    <section class="panel history-panel" data-component="history-view" hidden></section>
+
+    <section class="panel legend-panel" data-component="party-directory"></section>
+
+    <section class="panel method">
+      <h3 data-i18n="method.title"></h3>
+      <ul>
+        <li data-i18n="method.1"></li>
+        <li data-i18n="method.2"></li>
+        <li data-i18n="method.3"></li>
+        <li data-i18n="method.4"></li>
+        <li data-i18n="method.5"></li>
+      </ul>
+      <p class="updated" data-coverage></p>
+    </section>
+  </main>
+
+  <aside class="drawer" aria-hidden="true" data-component="party-drawer"></aside>
+
+  <footer class="foot">
+    <div class="foot-stripe"></div>
+    <p data-i18n="footer.text"></p>
+    <p class="foot-small" data-i18n="footer.logos"></p>
+  </footer>
+</body>
+</html>

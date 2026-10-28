@@ -1,0 +1,25 @@
+id,category_id,sort,title,question,left,right
+pal-state,palestinians,1,Palestinian state,Should Israel agree to an independent Palestinian state?,Supports a Palestinian state now,Rejects any Palestinian state
+sovereignty,palestinians,2,West Bank annexation & settlements,Should Israel apply sovereignty to the West Bank (Judea & Samaria) and expand settlement?,No annexation; remove outposts,Full sovereignty & expansion
+gaza,palestinians,3,The day after in Gaza,What should happen in Gaza after the war?,End the war; Palestinian/international rule,"Israeli control, emigration & resettlement"
+iran,security,4,Iran strategy,How should Israel deal with Iran?,New nuclear deal + military deterrent,Escalate; topple the regime
+death-penalty,security,5,Death penalty for terrorists,Should terrorists who kill be eligible for the death penalty?,Opposes,Supports
+judiciary,governance,6,Judicial overhaul,Should the power of the Supreme Court and the legal system be curbed?,Protect / restore judicial independence,Sharply curb the courts
+oct7,governance,7,Oct. 7 commission of inquiry,How should the failures of October 7 be investigated?,State commission (existing law),Politically appointed panel / no answer
+pardon,governance,8,Pardon for Netanyahu,Should President Herzog grant Netanyahu's November 2025 pardon request?,No (unless he admits guilt & quits),"Yes, grant the pardon"
+ag,governance,9,Firing the Attorney General,Should the government be able to dismiss AG Gali Baharav-Miara?,Opposes the dismissal,Supports firing the AG
+term-limits,governance,10,Term limits for Prime Minister,Should a prime minister be limited to two terms / eight years?,Opposes term limits,Supports term limits
+haredi-draft,service,11,Haredi (ultra-Orthodox) draft,Should yeshiva students be drafted into the IDF?,Full exemption for Torah students,Universal service with sanctions
+arab-service,service,12,National service for Arab citizens,Should Arab citizens be required to do military or civilian national service?,No compulsory service,Compulsory service for all
+evader-benefits,service,13,State benefits for those who don't serve,"Should draft evaders keep yeshiva stipends, daycare subsidies and other state benefits?",Keep funding & benefits,Cut all benefits
+civil-marriage,religion,14,Civil marriage,"Should Israel allow civil marriage and divorce, ending the Rabbinate's monopoly?",Civil marriage for all,Orthodox Rabbinate only
+shabbat-transport,religion,15,Public transport on Shabbat,Should public transportation run on Shabbat?,Yes (local discretion),No
+kashrut,religion,16,Kosher certification monopoly,Should the Chief Rabbinate keep its monopoly on kashrut certification?,Open competition,Keep Rabbinate monopoly
+core-curriculum,religion,17,Core curriculum in Haredi schools,"Should state-funded schools have to teach math, English and other core subjects?",Funding with full autonomy,Core studies mandatory
+temple-mount,religion,18,Jewish prayer on the Temple Mount,"Should Jewish prayer on the Temple Mount be expanded, changing the status quo?",Keep the status quo,Expand Jewish prayer / sovereignty
+lgbt,society,19,LGBTQ rights & same-sex marriage,"Should same-sex couples have equal rights, including marriage?",Full equality incl. marriage,Opposes
+economy,society,20,Economic model,Bigger welfare state or free market?,Welfare state & intervention,Free market & tax cuts
+jewish-civic,society,21,Jewish state vs. state of all citizens,How should Israel's national character be defined?,State of all its citizens,Jewish-national primacy
+netanyahu-bloc,politics,22,Netanyahu as Prime Minister,Does the party back Netanyahu for another term?,Replace Netanyahu,Back Netanyahu
+arab-parties,politics,23,Arab parties in government,"Would the party govern with, or rely on, Arab parties?","Yes, as partners",Ruled out entirely
+haredi-parties,politics,24,Haredi parties in government,Would the party sit in a coalition that depends on Shas / UTJ?,Yes,Ruled out

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Translations · Dimensional Election</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/tokens.css">
+  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/styles/editor.css">
+  <script type="module">
+    import { CONFIG } from "./src/config.js";
+    import { CsvSource } from "./src/data/CsvSource.js";
+    import { sourceStrings } from "./src/data/translations.js";
+    import { loadCatalogs } from "./src/i18n/loadCatalogs.js";
+    import { TranslationEditor } from "./src/i18n/editor/TranslationEditor.js";
+
+    const main = document.querySelector("[data-editor]");
+    const tabs = [...document.querySelectorAll("[data-tab]")];
+    try {
+      const translated = CONFIG.locales.filter(code => code !== CONFIG.sourceLocale);
+      const [ui, data, tables] = await Promise.all([
+        loadCatalogs(CONFIG.localesUrl, CONFIG.locales),
+        loadCatalogs(`${CONFIG.localesUrl}/data`, translated),
+        new CsvSource(CONFIG.dataUrl).loadAll()
+      ]);
+      const panes = { ui: document.createElement("div"), data: document.createElement("div") };
+      const editors = {
+        ui: new TranslationEditor(panes.ui, {
+          catalogs: ui, locales: CONFIG.locales, sourceLocale: CONFIG.sourceLocale,
+          url: code => `${CONFIG.localesUrl}/${code}.json`
+        }),
+        data: new TranslationEditor(panes.data, {
+          // The English column is the CSV text itself; translations carry the UI catalog's name/direction.
+          catalogs: Object.fromEntries(CONFIG.locales.map(code => [code, {
+            meta: ui[code].meta,
+            strings: code === CONFIG.sourceLocale ? sourceStrings(tables) : data[code].strings
+          }])),
+          locales: CONFIG.locales, sourceLocale: CONFIG.sourceLocale, readOnly: [CONFIG.sourceLocale],
+          url: code => `${CONFIG.localesUrl}/data/${code}.json`,
+          payload: catalog => ({ strings: catalog.strings }),
+          note: `The ${CONFIG.sourceLocale} column is read-only: it comes from data/*.csv, so edit it there. Keys are <table>.<row id>.<column>.`
+        })
+      };
+      main.replaceChildren(panes.ui, panes.data);
+
+      let active;
+      const show = name => {
+        active = name in editors ? name : "ui";
+        for (const [n, pane] of Object.entries(panes)) pane.hidden = n !== active;
+        for (const t of tabs) t.setAttribute("aria-selected", String(t.dataset.tab === active));
+        history.replaceState(null, "", `#${active}`);
+      };
+      for (const t of tabs) t.addEventListener("click", () => show(t.dataset.tab));
+      for (const e of Object.values(editors)) e.render();
+      show(location.hash.slice(1));
+
+      window.addEventListener("keydown", e => {
+        if ((e.ctrlKey || e.metaKey) && e.key === "s") { e.preventDefault(); editors[active].save(); }
+      });
+      window.addEventListener("beforeunload", e => {
+        if (Object.values(editors).some(ed => ed.isDirty)) e.preventDefault();
+      });
+    } catch (err) {
+      main.textContent = `Couldn't load the catalogs: ${err.message}. Run \`npm start\` and open http://localhost:8080/translate.html`;
+    }
+  </script>
+</head>
+<body class="editor">
+  <header class="editor-head">
+    <h1>Translations</h1>
+    <p>
+      Every phrase, side by side. Edit a cell and press <kbd>Ctrl</kbd>+<kbd>S</kbd>: with <code>npm start</code> running,
+      the change is written to <code>locales/</code>. Reload the site to see it.
+      To find the key behind a UI phrase, open the site with <a href="index.html?i18n=keys" target="_blank">?i18n=keys</a>.
+    </p>
+    <nav class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="ui">Interface <small>locales/&lt;lang&gt;.json</small></button>
+      <button type="button" role="tab" data-tab="data">Data: parties, topics, positions… <small>locales/data/&lt;lang&gt;.json</small></button>
+    </nav>
+  </header>
+  <main class="editor-main" data-editor>Loading…</main>
+</body>
+</html>

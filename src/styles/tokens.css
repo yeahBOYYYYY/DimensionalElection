@@ -1,0 +1,27 @@
+/* Design tokens: the patriotic blue & white palette and shared metrics. */
+:root {
+  --blue-900: #001a5c;
+  --blue-800: #00287f;
+  --blue-700: #0038b8;
+  --blue-500: #2563eb;
+  --blue-300: #93b4ff;
+  --blue-100: #e6eeff;
+  --blue-50:  #f3f7ff;
+  --sky: #0ea5e9;
+  --ink: #0b1b3f;
+  --ink-2: #44506b;
+  --ink-3: #7a86a1;
+  --line: #dbe4f7;
+  --card: #ffffff;
+  --bg: #f4f7fd;
+  --warn-bg: #fffbeb;
+  --warn-line: #fde68a;
+  --radius: 18px;
+  --shadow: 0 1px 2px rgba(0, 32, 110, .05), 0 8px 30px rgba(0, 32, 110, .08);
+  --scale-gradient: linear-gradient(90deg, #7dd3fc 0%, #e0ecff 50%, var(--blue-700) 100%);
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+[dir="rtl"] {
+  --scale-gradient: linear-gradient(270deg, #7dd3fc 0%, #e0ecff 50%, var(--blue-700) 100%);
+}

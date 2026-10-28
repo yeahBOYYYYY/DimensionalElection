@@ -1,0 +1,10 @@
+id,kind,name,description,color
+netanyahu,bloc,Netanyahu bloc,Parties allied with Netanyahu in that election.,#dc2626
+change,bloc,Change bloc,Parties whose priority was a government without Netanyahu.,#2563eb
+outside,bloc,Outside the blocs,Not formally part of either main bloc.,#94a3b8
+arab,family,Arab parties,Editorial grouping by political family.,#16a34a
+left,family,Zionist left,Editorial grouping by political family.,#e11d48
+center,family,Center,Editorial grouping by political family.,#0ea5e9
+right,family,Secular & national right,Editorial grouping by political family.,#1e3a8a
+religious-right,family,Religious-Zionist right,Editorial grouping by political family.,#f97316
+haredi,family,Haredi parties,Editorial grouping by political family.,#334155
