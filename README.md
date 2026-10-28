@@ -20,11 +20,19 @@ The site loads its data with `fetch`, so it needs to be served over HTTP. Openin
 npm start              # zero-dependency static server → http://localhost:8080
 npm test               # unit tests (node:test)
 npm run validate       # integrity check of the CSV dataset and the translations
+npm run build          # copy the deployable site into dist/
 ```
 
 Translations: with `npm start` running, open http://localhost:8080/translate.html (see [Translations](#translations)).
 
-You need Node.js 20 or newer. There are no npm dependencies and no build step. Any static host (GitHub Pages, Netlify…) can serve the folder as is.
+You need Node.js 20 or newer. There are no npm dependencies. `npm run build` only copies the files the page loads into
+`dist/` (leaving out tests, scripts, docs and the translation editor), and any static host can serve that folder as is.
+
+## CI and deployment
+
+`.github/workflows/ci.yml` runs `npm test` and `npm run validate` on every push and pull request. On a push to `main`,
+it then builds the site and force-pushes `dist/` to the `gh-pages` branch. To publish it, set **Settings → Pages →
+Build and deployment** to *Deploy from a branch*, `gh-pages` / `(root)`.
 
 ## Project layout
 
@@ -68,6 +76,7 @@ src/
   styles/                  CSS split by concern (tokens, layout, controls, chart, drawer…)
 scripts/
   serve.mjs                Dev server
+  build.mjs                Copies the deployable site into dist/
   validate-data.mjs        Dataset validator CLI
 tests/                     node:test suites for parser, database, selectors, layout and dataset
 ```
